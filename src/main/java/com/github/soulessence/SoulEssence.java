@@ -55,11 +55,11 @@ public class SoulEssence implements ModInitializer {
 	public static final Item CREEPER_SOUL_ESSENCE_ITEM =
 			new SoulEssenceItem(new FabricItemSettings().group(SOUL_ITEM_GROUP), SoulEssenceItem.SoulEssenceItemType.CREEPER);
 	public static final Item ENDERMAN_SOUL_ESSENCE_ITEM =
-			new SoulEssenceItem(new FabricItemSettings().group(SOUL_ITEM_GROUP), SoulEssenceItem.SoulEssenceItemType.CREEPER);
+			new SoulEssenceItem(new FabricItemSettings().group(SOUL_ITEM_GROUP), SoulEssenceItem.SoulEssenceItemType.ENDERMAN);
 	public static final Item SKELETON_SOUL_ESSENCE_ITEM =
-			new SoulEssenceItem(new FabricItemSettings().group(SOUL_ITEM_GROUP), SoulEssenceItem.SoulEssenceItemType.CREEPER);
+			new SoulEssenceItem(new FabricItemSettings().group(SOUL_ITEM_GROUP), SoulEssenceItem.SoulEssenceItemType.SKELETON);
 	public static final Item ZOMBIE_SOUL_ESSENCE_ITEM =
-			new SoulEssenceItem(new FabricItemSettings().group(SOUL_ITEM_GROUP), SoulEssenceItem.SoulEssenceItemType.CREEPER);
+			new SoulEssenceItem(new FabricItemSettings().group(SOUL_ITEM_GROUP), SoulEssenceItem.SoulEssenceItemType.ZOMBIE);
 
 	@Override
 	public void onInitialize() {
